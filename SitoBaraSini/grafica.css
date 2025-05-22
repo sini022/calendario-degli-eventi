@@ -1,0 +1,88 @@
+body{
+    background-color: rgba(252, 87, 87, 0.699);
+}
+h1{
+    font-size: 80px;
+    color: rgba(235, 228, 228, 0.945);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    text-shadow: 15px 15px 20px black;
+    
+}
+#conteiner{
+    border: 4px solid black;
+    border-radius: 20px;
+    background-color: rgba(76, 240, 171, 0.808);
+    width: 1370px;
+    padding: 20px;
+    box-shadow: 30px 30px 50px black;
+    
+}
+#conteiner1{
+    border: 4px solid black;
+    border-radius: 20px;
+    background-color: rgba(48, 228, 32, 0.699);
+    width: 900px;
+    padding: 20px;
+    padding-right: 30px;
+    box-shadow: 30px 30px 50px black;
+}
+#conteiner2{
+    border: 4px solid black;
+    border-radius: 20px;
+    background-color: rgba(213, 230, 68, 0.801);
+    width: 900px;
+    padding: 20px;
+    padding-right: 30px;
+    box-shadow: 30px 30px 50px black
+}
+.ora{
+    width: 30px;
+    height: auto;
+}
+#tab1{
+    border: 2px solid black;
+    box-shadow: 0 0 10px black;
+    background-color: rgba(255, 255, 255, 0.705);
+}
+#tab2{
+    border: 2px solid black;
+    box-shadow: 0 0 10px black;
+    background-color: rgba(255, 255, 255, 0.651);
+}
+#tab3{
+    border: 2px solid black;
+    box-shadow: 0 0 10px black;
+    background-color: rgba(255, 255, 255, 0.575);
+}
+
+.info-box {
+    display: block;
+    width: 10%;
+    position: absolute;
+    background: #333;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    visibility: hidden;
+    box-shadow: 0 0 40px black;
+}
+
+.info-box input,
+.info-box textarea {
+    display: block;
+    width: 95%;
+    padding: 5px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 3px;
+    background: white;
+    color: black;
+}
+.numeroInput{
+    width: 110px;
+}

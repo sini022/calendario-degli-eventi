@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="grafica.css">
+    <title>Sito</title>
+</head>
+<body>
+    <h1>Calendario degli eventi</h1>
+    <center>
+    <div id="conteiner">
+    <h2>IDEA 1</h2>
+    <table border="1" id="tab1">
+        <tr>
+            <th></th>
+            <th>Lunedi</th>
+            <th>Martedi</th>
+            <th>Mercoledi</th>
+            <th>Giovedi</th>
+            <th>Venerdi</th>
+            <th>Sabato</th>
+            <th>Domenica</th>
+        </tr>
+        <tr>
+            <th>Data</th>
+            <td><input type="date"></textarea></td>
+            <td><input type="date"></textarea></td>
+            <td><input type="date"></textarea></td>
+            <td><input type="date"></textarea></td>
+            <td><input type="date"></textarea></td>
+            <td><input type="date"></textarea></td>
+            <td><input type="date"></textarea></td>
+        </tr>
+        <tr>
+            <th>Nome</th>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <th>Descrizione</th>
+            <td><textarea name="desc" id="desc"></textarea></td>
+            <td><textarea name="desc" id="desc"></textarea></td>
+            <td><textarea name="desc" id="desc"></textarea></td>
+            <td><textarea name="desc" id="desc"></textarea></td>
+            <td><textarea name="desc" id="desc"></textarea></td>
+            <td><textarea name="desc" id="desc"></textarea></td>
+            <td><textarea name="desc" id="desc"></textarea></td>
+        </tr>
+        <tr>
+            <th>Luogo</th>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <th>Orario</th>
+            <td><input class="ora" type="number" min="00" max="23">:<input class="ora" type="number" min="00" max="59"></td>
+            <td><input class="ora" type="number" min="00" max="23">:<input class="ora" type="number" min="00" max="59"></td>
+            <td><input class="ora" type="number" min="00" max="23">:<input class="ora" type="number" min="00" max="59"></td>
+            <td><input class="ora" type="number" min="00" max="23">:<input class="ora" type="number" min="00" max="59"></td>
+            <td><input class="ora" type="number" min="00" max="23">:<input class="ora" type="number" min="00" max="59"></td>
+            <td><input class="ora" type="number" min="00" max="23">:<input class="ora" type="number" min="00" max="59"></td>
+            <td><input class="ora" type="number" min="00" max="23">:<input class="ora" type="number" min="00" max="59"></td>
+        </tr>
+
+    </table>
+</div>
+
+    <br> <br>
+
+    <div id="conteiner1">
+        <center>
+        <h2>IDEA 2</h2>
+    <table border="1"  id="tab2">
+        <tr>
+            <th></th>
+            <th>Data</th>
+            <th>Nome</th>
+            <th>Descrizione</th>
+            <th>Luogo</th>
+            <th>Orario</th>
+        </tr>
+        <tr>
+            <th>Lunedi</th>
+            <td><input type="date"></textarea></td>
+            <td><input type="text"></textarea></td>
+            <td><textarea name="data" id="data"></textarea></td>
+            <td><input type="text"></textarea></td>
+            <td><input class="ora" type="number" min="00" max="23">:<input class="ora" type="number" min="00" max="59"></td>
+        </tr>
+        <tr>
+            <th>Martedi</th>
+            <td><input type="date"></td>
+            <td><input type="text"></td>
+            <td><textarea name="data" id="data"></textarea></td>
+            <td><input type="text"></td>
+            <td><input class="ora" type="number" min="00" max="23">:<input class="ora" type="number" min="00" max="59"></td>
+        </tr>
+        <tr>
+            <th>Mercoledi</th>
+            <td><input type="date"></td>
+            <td><input type="text"></td>
+            <td><textarea name="data" id="data"></textarea></td>
+            <td><input type="text"></td>
+            <td><input class="ora" type="number" min="00" max="23">:<input class="ora" type="number" min="00" max="59"></td>
+        </tr>
+        <tr>
+            <th>Giovedi</th>
+            <td><input type="date"></td>
+            <td><input type="text"></td>
+            <td><textarea name="data" id="data"></textarea></td>
+            <td><input type="text"></td>
+            <td><input class="ora" type="number" min="00" max="23">:<input class="ora" type="number" min="00" max="59"></td>
+        </tr>
+        <tr>
+            <th>Venerdi</th>
+            <td><input type="date"></td>
+            <td><input type="text"></td>
+            <td><textarea name="data" id="data"></textarea></td>
+            <td><input type="text"></td>
+            <td><input class="ora" type="number" min="00" max="23">:<input class="ora" type="number" min="00" max="59"></td>
+        </tr>
+        <tr>
+            <th>Sabato</th>
+            <td><input type="date"></td>
+            <td><input type="text"></td>
+            <td><textarea name="data" id="data"></textarea></td>
+            <td><input type="text"></td>
+            <td><input class="ora" type="number" min="00" max="23">:<input class="ora" type="number" min="00" max="59"></td>
+        </tr>
+        <tr>
+            <th>Domenica</th>
+            <td><input type="date"></td>
+            <td><input type="text"></td>
+            <td><textarea name="data" id="data"></textarea></td>
+            <td><input type="text"></td>
+            <td><input class="ora" type="number" min="00" max="23">:<input class="ora" type="number" min="00" max="59"></td>
+        </tr>
+        <tbody id="eventi"></tbody>
+
+    </table>
+    </center>
+    </div>
+
+    <br>
+    <br>
+
+    <div id="conteiner2">
+        <h2>IDEA 3</h2>
+    <table border="1" id="tab3">
+        <tr>
+            <th>Lunedi</th>
+            <th>Martedi</th>
+            <th>Mercoledi</th>
+            <th>Giovedi</th>
+            <th>Venerdi</th>
+            <th>Sabato</th>
+            <th>Domenica</th>
+        </tr>
+        <tr>
+            <td><input type="number" class="numeroInput" placeholder="Inserisci l'evento">
+                <div class="info-box" id="infoBox">
+                    <label for="data">Data:</label>
+                    <input type="date" id="data" placeholder="Inserisci la data">
+
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" placeholder="Inserisci il nome">
+
+                    <label for="descrizione">Descrizione:</label>
+                    <textarea id="descrizione" placeholder="Scrivi la descrizione"></textarea>
+
+                    <label for="luogo">Luogo:</label>
+                    <input type="text" id="luogo" placeholder="Inserisci il luogo">
+
+                    <label for="orario">Orario:</label>
+                    <input type="text" id="orario" placeholder="Inserisci l'orario">
+                </div>
+            </td>
+            
+            <td><input type="number" class="numeroInput" placeholder="Inserisci l'evento">
+                <div class="info-box" id="infoBox">
+                    <label for="data">Data:</label>
+                    <input type="date" id="data" placeholder="Inserisci la data">
+
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" placeholder="Inserisci il nome">
+
+                    <label for="descrizione">Descrizione:</label>
+                    <textarea id="descrizione" placeholder="Scrivi la descrizione"></textarea>
+
+                    <label for="luogo">Luogo:</label>
+                    <input type="text" id="luogo" placeholder="Inserisci il luogo">
+
+                    <label for="orario">Orario:</label>
+                    <input type="text" id="orario" placeholder="Inserisci l'orario">
+                </div>
+            </td>
+            <td><input type="number" class="numeroInput" placeholder="Inserisci l'evento">
+                <div class="info-box" id="infoBox">
+                    <label for="data">Data:</label>
+                    <input type="date" id="data" placeholder="Inserisci la data">
+
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" placeholder="Inserisci il nome">
+
+                    <label for="descrizione">Descrizione:</label>
+                    <textarea id="descrizione" placeholder="Scrivi la descrizione"></textarea>
+
+                    <label for="luogo">Luogo:</label>
+                    <input type="text" id="luogo" placeholder="Inserisci il luogo">
+
+                    <label for="orario">Orario:</label>
+                    <input type="text" id="orario" placeholder="Inserisci l'orario">
+                </div>
+            </td>
+            <td><input type="number" class="numeroInput" placeholder="Inserisci l'evento">
+                <div class="info-box" id="infoBox">
+                    <label for="data">Data:</label>
+                    <input type="date" id="data" placeholder="Inserisci la data">
+
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" placeholder="Inserisci il nome">
+
+                    <label for="descrizione">Descrizione:</label>
+                    <textarea id="descrizione" placeholder="Scrivi la descrizione"></textarea>
+
+                    <label for="luogo">Luogo:</label>
+                    <input type="text" id="luogo" placeholder="Inserisci il luogo">
+
+                    <label for="orario">Orario:</label>
+                    <input type="text" id="orario" placeholder="Inserisci l'orario">
+                </div>
+            </td>
+            <td><input type="number" class="numeroInput" placeholder="Inserisci l'evento">
+                <div class="info-box" id="infoBox">
+                    <label for="data">Data:</label>
+                    <input type="date" id="data" placeholder="Inserisci la data">
+
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" placeholder="Inserisci il nome">
+
+                    <label for="descrizione">Descrizione:</label>
+                    <textarea id="descrizione" placeholder="Scrivi la descrizione"></textarea>
+
+                    <label for="luogo">Luogo:</label>
+                    <input type="text" id="luogo" placeholder="Inserisci il luogo">
+
+                    <label for="orario">Orario:</label>
+                    <input type="text" id="orario" placeholder="Inserisci l'orario">
+                </div>
+            </td>
+            <td><input type="number" class="numeroInput" placeholder="Inserisci l'evento">
+                <div class="info-box" id="infoBox">
+                    <label for="data">Data:</label>
+                    <input type="date" id="data" placeholder="Inserisci la data">
+
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" placeholder="Inserisci il nome">
+
+                    <label for="descrizione">Descrizione:</label>
+                    <textarea id="descrizione" placeholder="Scrivi la descrizione"></textarea>
+
+                    <label for="luogo">Luogo:</label>
+                    <input type="text" id="luogo" placeholder="Inserisci il luogo">
+
+                    <label for="orario">Orario:</label>
+                    <input type="text" id="orario" placeholder="Inserisci l'orario">
+                </div>
+            </td>
+            <td><input type="number" class="numeroInput" placeholder="Inserisci l'evento">
+                <div class="info-box" id="infoBox">
+                    <label for="data">Data:</label>
+                    <input type="date" id="data" placeholder="Inserisci la data">
+
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" placeholder="Inserisci il nome">
+
+                    <label for="descrizione">Descrizione:</label>
+                    <textarea id="descrizione" placeholder="Scrivi la descrizione"></textarea>
+
+                    <label for="luogo">Luogo:</label>
+                    <input type="text" id="luogo" placeholder="Inserisci il luogo">
+
+                    <label for="orario">Orario:</label>
+                    <input type="text" id="orario" placeholder="Inserisci l'orario">
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td><input type="number" class="numeroInput" placeholder="Inserisci l'evento">
+                <div class="info-box" id="infoBox">
+                    <label for="data">Data:</label>
+                    <input type="date" id="data" placeholder="Inserisci la data">
+
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" placeholder="Inserisci il nome">
+
+                    <label for="descrizione">Descrizione:</label>
+                    <textarea id="descrizione" placeholder="Scrivi la descrizione"></textarea>
+
+                    <label for="luogo">Luogo:</label>
+                    <input type="text" id="luogo" placeholder="Inserisci il luogo">
+
+                    <label for="orario">Orario:</label>
+                    <input type="text" id="orario" placeholder="Inserisci l'orario">
+                </div>
+            </td>
+            
+            <td><input type="number" class="numeroInput" placeholder="Inserisci l'evento">
+                <div class="info-box" id="infoBox">
+                    <label for="data">Data:</label>
+                    <input type="date" id="data" placeholder="Inserisci la data">
+
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" placeholder="Inserisci il nome">
+
+                    <label for="descrizione">Descrizione:</label>
+                    <textarea id="descrizione" placeholder="Scrivi la descrizione"></textarea>
+
+                    <label for="luogo">Luogo:</label>
+                    <input type="text" id="luogo" placeholder="Inserisci il luogo">
+
+                    <label for="orario">Orario:</label>
+                    <input type="text" id="orario" placeholder="Inserisci l'orario">
+                </div>
+            </td>
+            <td><input type="number" class="numeroInput" placeholder="Inserisci l'evento">
+                <div class="info-box" id="infoBox">
+                    <label for="data">Data:</label>
+                    <input type="date" id="data" placeholder="Inserisci la data">
+
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" placeholder="Inserisci il nome">
+
+                    <label for="descrizione">Descrizione:</label>
+                    <textarea id="descrizione" placeholder="Scrivi la descrizione"></textarea>
+
+                    <label for="luogo">Luogo:</label>
+                    <input type="text" id="luogo" placeholder="Inserisci il luogo">
+
+                    <label for="orario">Orario:</label>
+                    <input type="text" id="orario" placeholder="Inserisci l'orario">
+                </div>
+            </td>
+            <td><input type="number" class="numeroInput" placeholder="Inserisci l'evento">
+                <div class="info-box" id="infoBox">
+                    <label for="data">Data:</label>
+                    <input type="date" id="data" placeholder="Inserisci la data">
+
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" placeholder="Inserisci il nome">
+
+                    <label for="descrizione">Descrizione:</label>
+                    <textarea id="descrizione" placeholder="Scrivi la descrizione"></textarea>
+
+                    <label for="luogo">Luogo:</label>
+                    <input type="text" id="luogo" placeholder="Inserisci il luogo">
+
+                    <label for="orario">Orario:</label>
+                    <input type="text" id="orario" placeholder="Inserisci l'orario">
+                </div>
+            </td>
+            <td><input type="number" class="numeroInput" placeholder="Inserisci l'evento">
+                <div class="info-box" id="infoBox">
+                    <label for="data">Data:</label>
+                    <input type="date" id="data" placeholder="Inserisci la data">
+
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" placeholder="Inserisci il nome">
+
+                    <label for="descrizione">Descrizione:</label>
+                    <textarea id="descrizione" placeholder="Scrivi la descrizione"></textarea>
+
+                    <label for="luogo">Luogo:</label>
+                    <input type="text" id="luogo" placeholder="Inserisci il luogo">
+
+                    <label for="orario">Orario:</label>
+                    <input type="text" id="orario" placeholder="Inserisci l'orario">
+                </div>
+            </td>
+            <td><input type="number" class="numeroInput" placeholder="Inserisci l'evento">
+                <div class="info-box" id="infoBox">
+                    <label for="data">Data:</label>
+                    <input type="date" id="data" placeholder="Inserisci la data">
+
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" placeholder="Inserisci il nome">
+
+                    <label for="descrizione">Descrizione:</label>
+                    <textarea id="descrizione" placeholder="Scrivi la descrizione"></textarea>
+
+                    <label for="luogo">Luogo:</label>
+                    <input type="text" id="luogo" placeholder="Inserisci il luogo">
+
+                    <label for="orario">Orario:</label>
+                    <input type="text" id="orario" placeholder="Inserisci l'orario">
+                </div>
+            </td>
+            <td><input type="number" class="numeroInput" placeholder="Inserisci l'evento">
+                <div class="info-box" id="infoBox">
+                    <label for="data">Data:</label>
+                    <input type="date" id="data" placeholder="Inserisci la data">
+
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" placeholder="Inserisci il nome">
+
+                    <label for="descrizione">Descrizione:</label>
+                    <textarea id="descrizione" placeholder="Scrivi la descrizione"></textarea>
+
+                    <label for="luogo">Luogo:</label>
+                    <input type="text" id="luogo" placeholder="Inserisci il luogo">
+
+                    <label for="orario">Orario:</label>
+                    <input type="text" id="orario" placeholder="Inserisci l'orario">
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td><input type="number" class="numeroInput" placeholder="Inserisci l'evento">
+                <div class="info-box" id="infoBox">
+                    <label for="data">Data:</label>
+                    <input type="date" id="data" placeholder="Inserisci la data">
+
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" placeholder="Inserisci il nome">
+
+                    <label for="descrizione">Descrizione:</label>
+                    <textarea id="descrizione" placeholder="Scrivi la descrizione"></textarea>
+
+                    <label for="luogo">Luogo:</label>
+                    <input type="text" id="luogo" placeholder="Inserisci il luogo">
+
+                    <label for="orario">Orario:</label>
+                    <input type="text" id="orario" placeholder="Inserisci l'orario">
+                </div>
+            </td>
+            
+            <td><input type="number" class="numeroInput" placeholder="Inserisci l'evento">
+                <div class="info-box" id="infoBox">
+                    <label for="data">Data:</label>
+                    <input type="date" id="data" placeholder="Inserisci la data">
+
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" placeholder="Inserisci il nome">
+
+                    <label for="descrizione">Descrizione:</label>
+                    <textarea id="descrizione" placeholder="Scrivi la descrizione"></textarea>
+
+                    <label for="luogo">Luogo:</label>
+                    <input type="text" id="luogo" placeholder="Inserisci il luogo">
+
+                    <label for="orario">Orario:</label>
+                    <input type="text" id="orario" placeholder="Inserisci l'orario">
+                </div>
+            </td>
+            <td><input type="number" class="numeroInput" placeholder="Inserisci l'evento">
+                <div class="info-box" id="infoBox">
+                    <label for="data">Data:</label>
+                    <input type="date" id="data" placeholder="Inserisci la data">
+
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" placeholder="Inserisci il nome">
+
+                    <label for="descrizione">Descrizione:</label>
+                    <textarea id="descrizione" placeholder="Scrivi la descrizione"></textarea>
+
+                    <label for="luogo">Luogo:</label>
+                    <input type="text" id="luogo" placeholder="Inserisci il luogo">
+
+                    <label for="orario">Orario:</label>
+                    <input type="text" id="orario" placeholder="Inserisci l'orario">
+                </div>
+            </td>
+            <td><input type="number" class="numeroInput" placeholder="Inserisci l'evento">
+                <div class="info-box" id="infoBox">
+                    <label for="data">Data:</label>
+                    <input type="date" id="data" placeholder="Inserisci la data">
+
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" placeholder="Inserisci il nome">
+
+                    <label for="descrizione">Descrizione:</label>
+                    <textarea id="descrizione" placeholder="Scrivi la descrizione"></textarea>
+
+                    <label for="luogo">Luogo:</label>
+                    <input type="text" id="luogo" placeholder="Inserisci il luogo">
+
+                    <label for="orario">Orario:</label>
+                    <input type="text" id="orario" placeholder="Inserisci l'orario">
+                </div>
+            </td>
+            <td><input type="number" class="numeroInput" placeholder="Inserisci l'evento">
+                <div class="info-box" id="infoBox">
+                    <label for="data">Data:</label>
+                    <input type="date" id="data" placeholder="Inserisci la data">
+
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" placeholder="Inserisci il nome">
+
+                    <label for="descrizione">Descrizione:</label>
+                    <textarea id="descrizione" placeholder="Scrivi la descrizione"></textarea>
+
+                    <label for="luogo">Luogo:</label>
+                    <input type="text" id="luogo" placeholder="Inserisci il luogo">
+
+                    <label for="orario">Orario:</label>
+                    <input type="text" id="orario" placeholder="Inserisci l'orario">
+                </div>
+            </td>
+            <td><input type="number" class="numeroInput" placeholder="Inserisci l'evento">
+                <div class="info-box" id="infoBox">
+                    <label for="data">Data:</label>
+                    <input type="date" id="data" placeholder="Inserisci la data">
+
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" placeholder="Inserisci il nome">
+
+                    <label for="descrizione">Descrizione:</label>
+                    <textarea id="descrizione" placeholder="Scrivi la descrizione"></textarea>
+
+                    <label for="luogo">Luogo:</label>
+                    <input type="text" id="luogo" placeholder="Inserisci il luogo">
+
+                    <label for="orario">Orario:</label>
+                    <input type="text" id="orario" placeholder="Inserisci l'orario">
+                </div>
+            </td>
+            <td><input type="number" class="numeroInput" placeholder="Inserisci l'evento">
+                <div class="info-box" id="infoBox">
+                    <label for="data">Data:</label>
+                    <input type="date" id="data" placeholder="Inserisci la data">
+
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" placeholder="Inserisci il nome">
+
+                    <label for="descrizione">Descrizione:</label>
+                    <textarea id="descrizione" placeholder="Scrivi la descrizione"></textarea>
+
+                    <label for="luogo">Luogo:</label>
+                    <input type="text" id="luogo" placeholder="Inserisci il luogo">
+
+                    <label for="orario">Orario:</label>
+                    <input type="text" id="orario" placeholder="Inserisci l'orario">
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td><input type="number" class="numeroInput" placeholder="Inserisci l'evento">
+                <div class="info-box" id="infoBox">
+                    <label for="data">Data:</label>
+                    <input type="date" id="data" placeholder="Inserisci la data">
+
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" placeholder="Inserisci il nome">
+
+                    <label for="descrizione">Descrizione:</label>
+                    <textarea id="descrizione" placeholder="Scrivi la descrizione"></textarea>
+
+                    <label for="luogo">Luogo:</label>
+                    <input type="text" id="luogo" placeholder="Inserisci il luogo">
+
+                    <label for="orario">Orario:</label>
+                    <input type="text" id="orario" placeholder="Inserisci l'orario">
+                </div>
+            </td>
+            
+            <td><input type="number" class="numeroInput" placeholder="Inserisci l'evento">
+                <div class="info-box" id="infoBox">
+                    <label for="data">Data:</label>
+                    <input type="date" id="data" placeholder="Inserisci la data">
+
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" placeholder="Inserisci il nome">
+
+                    <label for="descrizione">Descrizione:</label>
+                    <textarea id="descrizione" placeholder="Scrivi la descrizione"></textarea>
+
+                    <label for="luogo">Luogo:</label>
+                    <input type="text" id="luogo" placeholder="Inserisci il luogo">
+
+                    <label for="orario">Orario:</label>
+                    <input type="text" id="orario" placeholder="Inserisci l'orario">
+                </div>
+            </td>
+            <td><input type="number" class="numeroInput" placeholder="Inserisci l'evento">
+                <div class="info-box" id="infoBox">
+                    <label for="data">Data:</label>
+                    <input type="date" id="data" placeholder="Inserisci la data">
+
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" placeholder="Inserisci il nome">
+
+                    <label for="descrizione">Descrizione:</label>
+                    <textarea id="descrizione" placeholder="Scrivi la descrizione"></textarea>
+
+                    <label for="luogo">Luogo:</label>
+                    <input type="text" id="luogo" placeholder="Inserisci il luogo">
+
+                    <label for="orario">Orario:</label>
+                    <input type="text" id="orario" placeholder="Inserisci l'orario">
+                </div>
+            </td>
+            <td><input type="number" class="numeroInput" placeholder="Inserisci l'evento">
+                <div class="info-box" id="infoBox">
+                    <label for="data">Data:</label>
+                    <input type="date" id="data" placeholder="Inserisci la data">
+
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" placeholder="Inserisci il nome">
+
+                    <label for="descrizione">Descrizione:</label>
+                    <textarea id="descrizione" placeholder="Scrivi la descrizione"></textarea>
+
+                    <label for="luogo">Luogo:</label>
+                    <input type="text" id="luogo" placeholder="Inserisci il luogo">
+
+                    <label for="orario">Orario:</label>
+                    <input type="text" id="orario" placeholder="Inserisci l'orario">
+                </div>
+            </td>
+            <td><input type="number" class="numeroInput" placeholder="Inserisci l'evento">
+                <div class="info-box" id="infoBox">
+                    <label for="data">Data:</label>
+                    <input type="date" id="data" placeholder="Inserisci la data">
+
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" placeholder="Inserisci il nome">
+
+                    <label for="descrizione">Descrizione:</label>
+                    <textarea id="descrizione" placeholder="Scrivi la descrizione"></textarea>
+
+                    <label for="luogo">Luogo:</label>
+                    <input type="text" id="luogo" placeholder="Inserisci il luogo">
+
+                    <label for="orario">Orario:</label>
+                    <input type="text" id="orario" placeholder="Inserisci l'orario">
+                </div>
+            </td>
+            <td><input type="number" class="numeroInput" placeholder="Inserisci l'evento">
+                <div class="info-box" id="infoBox">
+                    <label for="data">Data:</label>
+                    <input type="date" id="data" placeholder="Inserisci la data">
+
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" placeholder="Inserisci il nome">
+
+                    <label for="descrizione">Descrizione:</label>
+                    <textarea id="descrizione" placeholder="Scrivi la descrizione"></textarea>
+
+                    <label for="luogo">Luogo:</label>
+                    <input type="text" id="luogo" placeholder="Inserisci il luogo">
+
+                    <label for="orario">Orario:</label>
+                    <input type="text" id="orario" placeholder="Inserisci l'orario">
+                </div>
+            </td>
+            <td><input type="number" class="numeroInput" placeholder="Inserisci l'evento">
+                <div class="info-box" id="infoBox">
+                    <label for="data">Data:</label>
+                    <input type="date" id="data" placeholder="Inserisci la data">
+
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" placeholder="Inserisci il nome">
+
+                    <label for="descrizione">Descrizione:</label>
+                    <textarea id="descrizione" placeholder="Scrivi la descrizione"></textarea>
+
+                    <label for="luogo">Luogo:</label>
+                    <input type="text" id="luogo" placeholder="Inserisci il luogo">
+
+                    <label for="orario">Orario:</label>
+                    <input type="text" id="orario" placeholder="Inserisci l'orario">
+                </div>
+            </td>
+        </tr>
+        
+        <tr>
+            <td><input type="number" class="numeroInput" placeholder="Inserisci l'evento">
+                <div class="info-box" id="infoBox">
+                    <label for="data">Data:</label>
+                    <input type="date" id="data" placeholder="Inserisci la data">
+
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" placeholder="Inserisci il nome">
+
+                    <label for="descrizione">Descrizione:</label>
+                    <textarea id="descrizione" placeholder="Scrivi la descrizione"></textarea>
+
+                    <label for="luogo">Luogo:</label>
+                    <input type="text" id="luogo" placeholder="Inserisci il luogo">
+
+                    <label for="orario">Orario:</label>
+                    <input type="text" id="orario" placeholder="Inserisci l'orario">
+                </div>
+            </td>
+            
+            <td><input type="number" class="numeroInput" placeholder="Inserisci l'evento">
+                <div class="info-box" id="infoBox">
+                    <label for="data">Data:</label>
+                    <input type="date" id="data" placeholder="Inserisci la data">
+
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" placeholder="Inserisci il nome">
+
+                    <label for="descrizione">Descrizione:</label>
+                    <textarea id="descrizione" placeholder="Scrivi la descrizione"></textarea>
+
+                    <label for="luogo">Luogo:</label>
+                    <input type="text" id="luogo" placeholder="Inserisci il luogo">
+
+                    <label for="orario">Orario:</label>
+                    <input type="text" id="orario" placeholder="Inserisci l'orario">
+                </div>
+            </td>
+            <td><input type="number" class="numeroInput" placeholder="Inserisci l'evento">
+                <div class="info-box" id="infoBox">
+                    <label for="data">Data:</label>
+                    <input type="date" id="data" placeholder="Inserisci la data">
+
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" placeholder="Inserisci il nome">
+
+                    <label for="descrizione">Descrizione:</label>
+                    <textarea id="descrizione" placeholder="Scrivi la descrizione"></textarea>
+
+                    <label for="luogo">Luogo:</label>
+                    <input type="text" id="luogo" placeholder="Inserisci il luogo">
+
+                    <label for="orario">Orario:</label>
+                    <input type="text" id="orario" placeholder="Inserisci l'orario">
+                </div>
+            </td>
+            <td><input type="number" class="numeroInput" placeholder="Inserisci l'evento">
+                <div class="info-box" id="infoBox">
+                    <label for="data">Data:</label>
+                    <input type="date" id="data" placeholder="Inserisci la data">
+
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" placeholder="Inserisci il nome">
+
+                    <label for="descrizione">Descrizione:</label>
+                    <textarea id="descrizione" placeholder="Scrivi la descrizione"></textarea>
+
+                    <label for="luogo">Luogo:</label>
+                    <input type="text" id="luogo" placeholder="Inserisci il luogo">
+
+                    <label for="orario">Orario:</label>
+                    <input type="text" id="orario" placeholder="Inserisci l'orario">
+                </div>
+            </td>
+            <td><input type="number" class="numeroInput" placeholder="Inserisci l'evento">
+                <div class="info-box" id="infoBox">
+                    <label for="data">Data:</label>
+                    <input type="date" id="data" placeholder="Inserisci la data">
+
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" placeholder="Inserisci il nome">
+
+                    <label for="descrizione">Descrizione:</label>
+                    <textarea id="descrizione" placeholder="Scrivi la descrizione"></textarea>
+
+                    <label for="luogo">Luogo:</label>
+                    <input type="text" id="luogo" placeholder="Inserisci il luogo">
+
+                    <label for="orario">Orario:</label>
+                    <input type="text" id="orario" placeholder="Inserisci l'orario">
+                </div>
+            </td>
+            <td><input type="number" class="numeroInput" placeholder="Inserisci l'evento">
+                <div class="info-box" id="infoBox">
+                    <label for="data">Data:</label>
+                    <input type="date" id="data" placeholder="Inserisci la data">
+
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" placeholder="Inserisci il nome">
+
+                    <label for="descrizione">Descrizione:</label>
+                    <textarea id="descrizione" placeholder="Scrivi la descrizione"></textarea>
+
+                    <label for="luogo">Luogo:</label>
+                    <input type="text" id="luogo" placeholder="Inserisci il luogo">
+
+                    <label for="orario">Orario:</label>
+                    <input type="text" id="orario" placeholder="Inserisci l'orario">
+                </div>
+            </td>
+            <td><input type="number" class="numeroInput" placeholder="Inserisci l'evento">
+                <div class="info-box" id="infoBox">
+                    <label for="data">Data:</label>
+                    <input type="date" id="data" placeholder="Inserisci la data">
+
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" placeholder="Inserisci il nome">
+
+                    <label for="descrizione">Descrizione:</label>
+                    <textarea id="descrizione" placeholder="Scrivi la descrizione"></textarea>
+
+                    <label for="luogo">Luogo:</label>
+                    <input type="text" id="luogo" placeholder="Inserisci il luogo">
+
+                    <label for="orario">Orario:</label>
+                    <input type="text" id="orario" placeholder="Inserisci l'orario">
+                </div>
+            </td>
+        </tr>
+        </table>
+    </div>
+</center>
+    <script src="fine.js"></script>
+</body>
